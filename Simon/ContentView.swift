@@ -6,10 +6,9 @@
 //
 
 import SwiftUI
-
 struct ContentView: View {
     var body: some View {
-        //(.preferredColorScheme(.dark))
+        //(.preferredColorScheme(.black))
         Text("Simon")
             .font(.system(size: 72))
             .padding()

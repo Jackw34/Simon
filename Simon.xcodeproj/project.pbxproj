@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F0593D128E343FF0040BE7A /* ColorDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0593D028E343FF0040BE7A /* ColorDisplay.swift */; };
 		2F81958D28CF7E970031B861 /* SimonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F81958C28CF7E970031B861 /* SimonApp.swift */; };
 		2F81958F28CF7E970031B861 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F81958E28CF7E970031B861 /* ContentView.swift */; };
 		2F81959128CF7E990031B861 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F81959028CF7E990031B861 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F0593D028E343FF0040BE7A /* ColorDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDisplay.swift; sourceTree = "<group>"; };
 		2F81958928CF7E970031B861 /* Simon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Simon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F81958C28CF7E970031B861 /* SimonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimonApp.swift; sourceTree = "<group>"; };
 		2F81958E28CF7E970031B861 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			children = (
 				2F81958C28CF7E970031B861 /* SimonApp.swift */,
 				2F81958E28CF7E970031B861 /* ContentView.swift */,
+				2F0593D028E343FF0040BE7A /* ColorDisplay.swift */,
 				2F81959028CF7E990031B861 /* Assets.xcassets */,
 				2F81959228CF7E990031B861 /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				2F81958F28CF7E970031B861 /* ContentView.swift in Sources */,
 				2F81958D28CF7E970031B861 /* SimonApp.swift in Sources */,
+				2F0593D128E343FF0040BE7A /* ColorDisplay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
