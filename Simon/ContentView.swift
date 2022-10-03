@@ -3,7 +3,6 @@
 //  Simon
 //
 //  Created by Jack W on 9/12/22.
-//
 
 import SwiftUI
 struct ContentView: View {
