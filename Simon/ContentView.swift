@@ -7,11 +7,14 @@
 import SwiftUI
 struct ContentView: View {
     @State private var DisplayColor = [DisplayColor(color: .green), DisplayColor(color: .red), DisplayColor(color: .yellow), DisplayColor(color: .blue)]
+    @State private var flash = [false, false, false, false]
+    
     var body: some View {
-        //(.preferredColorScheme(.black))
+        
         Text("Simon")
             .font(.system(size: 72))
             .padding()
+        .preferredColorScheme(.dark)
     }
     struct DisplayColor: View {
         let color: Color
