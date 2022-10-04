@@ -6,7 +6,7 @@
 
 import SwiftUI
 struct ContentView: View {
-    @State private var DisplayColor = [DisplayColor(color: .green), DisplayColor(color: .red), DisplayColor(color: .yellow), DisplayColor(color: .blue)]
+    @State private var ColorDisplay = [ColorDisplay(color: .green), ColorDisplay(color: .red), ColorDisplay(color: .yellow), ColorDisplay(color: .blue)]
     @State private var flash = [false, false, false, false]
     
     var body: some View {
@@ -14,9 +14,9 @@ struct ContentView: View {
         Text("Simon")
             .font(.system(size: 72))
             .padding()
-        .preferredColorScheme(.dark)
+            .preferredColorScheme(.dark)
     }
-    struct DisplayColor: View {
+    struct ColorDisplay: View {
         let color: Color
         var body: some View {
             RoundedRectangle(cornerRadius: 25.0)
