@@ -11,36 +11,40 @@ struct ContentView: View {
     
     
     var body: some View {
-        HStack {
-            Text("Simon")
-                .font(.system(size: 72))
+        ZStack {
+            VStack {
+                HStack {
+                    Text("Simon")
+                        .font(.system(size: 72))
+                        .padding()
+                        .preferredColorScheme(.dark)
+                    
+                    colorDisplay[0]
+                    colorDisplay[1]
+                }
+                
+                HStack {
+                    colorDisplay[2]
+                    colorDisplay[3]
+                }
+            }
+        }
+    }
+    
+    struct ColorDisplay: View {
+        let color: Color
+        var body: some View {
+            RoundedRectangle(cornerRadius: 25.0)
+                .fill(color)
+                .frame(width: 100, height: 100, alignment: .center)
                 .padding()
-                .preferredColorScheme(.dark)
-        
-            colorDisplay[0]
-            colorDisplay[1]
-        }
-        HStack {
-            colorDisplay[2]
-            colorDisplay[3]
         }
     }
-}
-
-
-struct ColorDisplay: View {
-    let color: Color
-    var body: some View {
-        RoundedRectangle(cornerRadius: 25.0)
-            .fill(color)
-            .frame(width: 100, height: 100, alignment: .center)
-            .padding()
-    }
-}
-
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+    
+    
+    struct ContentView_Previews: PreviewProvider {
+        static var previews: some View {
+            ContentView()
+        }
     }
 }
