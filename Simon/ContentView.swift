@@ -19,12 +19,15 @@ struct ContentView: View {
                     .preferredColorScheme(.dark)
                 HStack {
                     colorDisplay[0]
+                        .opacity(flash[0] ? 1 : 0.4)
                     colorDisplay[1]
+                        .opacity(flash[1] ? 1 : 0.4)
                 }
-                
                 HStack {
                     colorDisplay[2]
+                        .opacity(flash[2] ? 1 : 0.4)
                     colorDisplay[3]
+                        .opacity(flash[3] ? 1 : 0.4)
                 }
             }
         }
