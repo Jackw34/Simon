@@ -6,11 +6,11 @@
 
 import SwiftUI
 struct ContentView: View {
-    @State private var ColorDisplay = [ColorDisplay(color: .green), ColorDisplay(color: .red), ColorDisplay(color: .yellow), ColorDisplay(color: .blue)]
-    @State private var flash = [false, false, false, false]
+    @State private var colorDisplay = [ColorDisplay(color: .green), ColorDisplay(color: .red), ColorDisplay(color: .yellow), ColorDisplay(color: .blue)]
+    @State private var flash = [false, false, false, false] 
+    
     
     var body: some View {
-        
         Text("Simon")
             .font(.system(size: 72))
             .padding()
