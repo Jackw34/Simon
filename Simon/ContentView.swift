@@ -13,12 +13,11 @@ struct ContentView: View {
     var body: some View {
         ZStack {
             VStack {
+                Text("Simon")
+                    .font(.system(size: 72))
+                    .padding()
+                    .preferredColorScheme(.dark)
                 HStack {
-                    Text("Simon")
-                        .font(.system(size: 72))
-                        .padding()
-                        .preferredColorScheme(.dark)
-                    
                     colorDisplay[0]
                     colorDisplay[1]
                 }
