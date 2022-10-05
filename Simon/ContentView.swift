@@ -11,18 +11,18 @@ struct ContentView: View {
     
     
     var body: some View {
+        HStack {
             Text("Simon")
                 .font(.system(size: 72))
                 .padding()
                 .preferredColorScheme(.dark)
         
-        HStack {
             colorDisplay[0]
             colorDisplay[1]
         }
         HStack {
+            colorDisplay[2]
             colorDisplay[3]
-            colorDisplay[4]
         }
     }
 }
