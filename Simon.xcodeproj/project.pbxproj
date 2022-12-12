@@ -11,6 +11,14 @@
 		2F81958F28CF7E970031B861 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F81958E28CF7E970031B861 /* ContentView.swift */; };
 		2F81959128CF7E990031B861 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F81959028CF7E990031B861 /* Assets.xcassets */; };
 		2F81959428CF7E990031B861 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F81959328CF7E990031B861 /* Preview Assets.xcassets */; };
+		D2B165C12940EFDE0058B5D2 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B165C02940EFDE0058B5D2 /* AudioPlayer.swift */; };
+		D2FE0A03294782A80081C5A7 /* HighScore.wav in Resources */ = {isa = PBXBuildFile; fileRef = D2FE09FC294782A80081C5A7 /* HighScore.wav */; };
+		D2FE0A04294782A80081C5A7 /* 3.wav in Resources */ = {isa = PBXBuildFile; fileRef = D2FE09FD294782A80081C5A7 /* 3.wav */; };
+		D2FE0A05294782A80081C5A7 /* 2.wav in Resources */ = {isa = PBXBuildFile; fileRef = D2FE09FE294782A80081C5A7 /* 2.wav */; };
+		D2FE0A06294782A80081C5A7 /* 1.wav in Resources */ = {isa = PBXBuildFile; fileRef = D2FE09FF294782A80081C5A7 /* 1.wav */; };
+		D2FE0A07294782A80081C5A7 /* 0.wav in Resources */ = {isa = PBXBuildFile; fileRef = D2FE0A00294782A80081C5A7 /* 0.wav */; };
+		D2FE0A08294782A80081C5A7 /* Start.wav in Resources */ = {isa = PBXBuildFile; fileRef = D2FE0A01294782A80081C5A7 /* Start.wav */; };
+		D2FE0A09294782A80081C5A7 /* Lose.wav in Resources */ = {isa = PBXBuildFile; fileRef = D2FE0A02294782A80081C5A7 /* Lose.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,14 @@
 		2F81958E28CF7E970031B861 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2F81959028CF7E990031B861 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F81959328CF7E990031B861 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D2B165C02940EFDE0058B5D2 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		D2FE09FC294782A80081C5A7 /* HighScore.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = HighScore.wav; sourceTree = "<group>"; };
+		D2FE09FD294782A80081C5A7 /* 3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 3.wav; sourceTree = "<group>"; };
+		D2FE09FE294782A80081C5A7 /* 2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 2.wav; sourceTree = "<group>"; };
+		D2FE09FF294782A80081C5A7 /* 1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 1.wav; sourceTree = "<group>"; };
+		D2FE0A00294782A80081C5A7 /* 0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 0.wav; sourceTree = "<group>"; };
+		D2FE0A01294782A80081C5A7 /* Start.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Start.wav; sourceTree = "<group>"; };
+		D2FE0A02294782A80081C5A7 /* Lose.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Lose.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +68,11 @@
 			isa = PBXGroup;
 			children = (
 				2F81958C28CF7E970031B861 /* SimonApp.swift */,
+				D2B165C02940EFDE0058B5D2 /* AudioPlayer.swift */,
 				2F81958E28CF7E970031B861 /* ContentView.swift */,
 				2F81959028CF7E990031B861 /* Assets.xcassets */,
 				2F81959228CF7E990031B861 /* Preview Content */,
+				D2FE09FB2947824C0081C5A7 /* Sounds */,
 			);
 			path = Simon;
 			sourceTree = "<group>";
@@ -65,6 +83,20 @@
 				2F81959328CF7E990031B861 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D2FE09FB2947824C0081C5A7 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				D2FE0A00294782A80081C5A7 /* 0.wav */,
+				D2FE09FF294782A80081C5A7 /* 1.wav */,
+				D2FE09FE294782A80081C5A7 /* 2.wav */,
+				D2FE09FD294782A80081C5A7 /* 3.wav */,
+				D2FE09FC294782A80081C5A7 /* HighScore.wav */,
+				D2FE0A02294782A80081C5A7 /* Lose.wav */,
+				D2FE0A01294782A80081C5A7 /* Start.wav */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +157,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2FE0A06294782A80081C5A7 /* 1.wav in Resources */,
+				D2FE0A04294782A80081C5A7 /* 3.wav in Resources */,
 				2F81959428CF7E990031B861 /* Preview Assets.xcassets in Resources */,
+				D2FE0A08294782A80081C5A7 /* Start.wav in Resources */,
+				D2FE0A09294782A80081C5A7 /* Lose.wav in Resources */,
 				2F81959128CF7E990031B861 /* Assets.xcassets in Resources */,
+				D2FE0A05294782A80081C5A7 /* 2.wav in Resources */,
+				D2FE0A07294782A80081C5A7 /* 0.wav in Resources */,
+				D2FE0A03294782A80081C5A7 /* HighScore.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +178,7 @@
 			files = (
 				2F81958F28CF7E970031B861 /* ContentView.swift in Sources */,
 				2F81958D28CF7E970031B861 /* SimonApp.swift in Sources */,
+				D2B165C12940EFDE0058B5D2 /* AudioPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,7 +307,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Simon/Preview Content\"";
-				DEVELOPMENT_TEAM = 48AXVM6239;
+				DEVELOPMENT_TEAM = DK888FTSRB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -296,7 +336,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Simon/Preview Content\"";
-				DEVELOPMENT_TEAM = 48AXVM6239;
+				DEVELOPMENT_TEAM = DK888FTSRB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
